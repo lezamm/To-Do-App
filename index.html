@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather ToDo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>☀️ Weather ToDo</h1>
+      <div class="createTodo">
+        <input id="todoText" type="text" placeholder="Hvad skal du lave?" />
+        <input id="todoDate" type="date" />
+        <label><input id="outdoor" type="checkbox" /> 🌳 Outdoor</label>
+        <button id="btnAddTodo">Tilføj opgave</button>
+      </div>
+      <div id="feedback"></div>
+      <h2>ToDo</h2>
+      <ul id="todos"></ul>
+      <h2>Færdig</h2>
+      <ul id="doneTodos"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
